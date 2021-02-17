@@ -35,11 +35,8 @@ const promptUser = () =>
         type: 'list',
         name: 'license',
         message: 'Choose a license for application:',
-        choices: [
-            'Red',
-            'Green',
-            'Blue'
-          ],
+        choices: ["Unlicensed", "MIT", "Apache", "Eclipse", "Mozilla", "GNU"],
+        default: 'unlicensed'
       },
       {
         type: 'input',
@@ -59,11 +56,10 @@ const promptUser = () =>
   ]);
 
 
-
-
   const generateREADME = (answers) =>
   `
-# ${answers.title}
+# ${answers.title}\n
+![License: MIT](https://img.shields.io/badge/License-${answers.license}-informational "License Badge")
 
 ${answers.description}
 \n* [Installation](#Installation)
@@ -80,7 +76,7 @@ ${answers.instructions}
 ${answers.usage}
 
 ## License 
-This project is licensed under the ${answers.license} - see the file for details
+This project is licensed under ${answers.license}.
 
 ## Contributors
 ${answers.contributers}
@@ -89,6 +85,7 @@ ${answers.contributers}
 ${answers.test}
 
 ## Questions
+Please direct all questions to one of the following:
 \nEmail: ${answers.email}
 \nGitHub: https://github.com/${answers.github}
 `;

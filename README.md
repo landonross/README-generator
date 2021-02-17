@@ -1,5 +1,7 @@
 
-# README generator
+# README Generator
+
+![License: MIT](https://img.shields.io/badge/License-Unlicensed-informational "License Badge")
 
 A terminal/gitbash prompter that helps the user efficiently make a readme file for their projects and in-so-doing, save time and be more efficient
 
@@ -16,21 +18,22 @@ A terminal/gitbash prompter that helps the user efficiently make a readme file f
 * [Tests](#Tests)
 
 ## Installation
-By clicking that download
+Requires the module inquirer and node.js
 
 ## Instructions
-Once you have the code in Visual Studios, pull up the terminal and run "node index.js" and follow the prompts
+Backend coding that requires node.js and answering prompts to fill out a README file for projects
 
 ## License 
-This project is licensed under the Blue - see the file for details
+This project is licensed under Unlicensed.
 
 ## Contributors
 Landon Ross
 
 ## Tests
-not sure what this questions entails
+None
 
 ## Questions
+Please direct all questions to one of the following:
 
 Email: landon.w.ross@gmail.com
 
