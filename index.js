@@ -35,8 +35,8 @@ const promptUser = () =>
         type: 'list',
         name: 'license',
         message: 'Choose a license for application:',
-        choices: ["Unlicensed", "MIT", "Apache", "Eclipse", "Mozilla", "GNU"],
-        default: 'unlicensed'
+        choices: ["None", "MIT", "Apache", "Eclipse", "Mozilla", "GNU"],
+        default: 'None'
       },
       {
         type: 'input',
@@ -76,7 +76,7 @@ ${answers.instructions}
 ${answers.usage}
 
 ## License 
-This project is licensed under ${answers.license}.
+This project has the following license: ${answers.license}.
 
 ## Contributors
 ${answers.contributers}

@@ -1,7 +1,7 @@
 
 # README Generator
 
-![License: MIT](https://img.shields.io/badge/License-Unlicensed-informational "License Badge")
+![License: MIT](https://img.shields.io/badge/License-None-informational "License Badge")
 
 A terminal/gitbash prompter that helps the user efficiently make a readme file for their projects and in-so-doing, save time and be more efficient
 
@@ -17,14 +17,16 @@ A terminal/gitbash prompter that helps the user efficiently make a readme file f
 
 * [Tests](#Tests)
 
+![Giphy](/README.GIF)
+
 ## Installation
 Requires the module inquirer and node.js
 
 ## Instructions
-Backend coding that requires node.js and answering prompts to fill out a README file for projects
+Back-end coding that requires node.js and answering prompts to fill out a README file for projects
 
 ## License 
-This project is licensed under Unlicensed.
+This project has the following license: None.
 
 ## Contributors
 Landon Ross
