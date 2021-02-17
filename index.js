@@ -78,7 +78,6 @@ ${answers.instructions}
 
 ## Instructions
 ${answers.usage}
-\`\`\`
 
 ## License 
 This project is licensed under the ${answers.license} - see the file for details

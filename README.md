@@ -20,7 +20,6 @@ By clicking that download
 
 ## Instructions
 Once you have the code in Visual Studios, pull up the terminal and run "node index.js" and follow the prompts
-```
 
 ## License 
 This project is licensed under the Blue - see the file for details
