@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/landonross/README-generator/issues"
   },
-  "homepage": "https://github.com/landonross/README-generator#readme"
+  "homepage": "https://github.com/landonross/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "prompts": "^2.4.0"
+  },
+  "keywords": []
 }
