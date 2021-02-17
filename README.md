@@ -17,7 +17,7 @@ A terminal/gitbash prompter that helps the user efficiently make a readme file f
 
 * [Tests](#Tests)
 
-![Giphy](/README.GIF)
+![Giphy](https://github.com/landonross/README-generator/blob/main/README.gif?raw=true)
 
 ## Installation
 Requires the module inquirer and node.js
